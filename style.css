@@ -25,6 +25,11 @@ body {
   font-size: 14px;
   opacity: 0.9;
 }
+.btn:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+  transition: 0.2s ease;
+}
 
 }
 
