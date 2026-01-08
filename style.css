@@ -74,12 +74,14 @@ body {
     url("img/hero.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
+  justify-content: center; /* TENGAH HORIZONTAL */
+  text-align: center;      /* TEKS TENGAH */
   padding: 40px;
   color: white;
 }
 
 .hero-content {
-  max-width: 600px;
+  max-width: 700px;
 }
 
 .hero h1 {
